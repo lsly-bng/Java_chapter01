@@ -4,6 +4,7 @@
 //오늘의 수업은 8가지 기본자료형 종류 소개 + Spring (나중에 더 배울 예정)
 
 /* Learning 8+a <PRIMITIVE DATA TYPES> : 
+ * A primitive data type specifies the size and type of variable values, and it has no additional methods.
  * 논리형 : boolean [1byte] use <true> or <false> / e.g. boolean ooo = true;
  * 문자형 : char [2byte] character / 모든유니코드 문자 / e.g. char ooo = 'f';
  * 정수형 : byte [1byte] -128 ~ +127 (0 is counted) / e.g. byte ooo = 89;

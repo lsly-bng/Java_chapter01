@@ -37,7 +37,7 @@ public class Ex02 {
 		System.out.println(var02);
 		
 		double var03 = 0.1234567890123456789;
-		float var04 = 0.1234567890123456789f;
+		float var04 = 0.1234567890123456789F;
 		
 		System.out.println (var03);
 		System.out.println (var04);
