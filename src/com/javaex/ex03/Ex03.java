@@ -20,9 +20,7 @@ public class Ex03 {
 		else if (num<0) {
 			System.out.println("음수입니다.");
 		}
-
 		sc.close();
 	}
-	
 }
 

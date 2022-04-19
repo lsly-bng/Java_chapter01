@@ -18,20 +18,21 @@
 */
 
 /////////////////////////////////////////////////////////////////////////
-						// JAVA_EX01_2022-04-13 \\
+// JAVA_EX01_2022-04-13 \\
 /////////////////////////////////////////////////////////////////////////
 
 package com.javaex.ex01;
 
 public class Ex01 {
-	
+
 	public static void main(String[] args) {
 
 		// 변수 선언 + 초기화를 한번에 한 케이스
 		int myAge = 25;
 
-		/* int myAge; //변수선언 
-		 * myAge=25; //초기화 */
+		/*
+		 * int myAge; //변수선언 myAge=25; //초기화
+		 */
 
 		// 메모리의 값을 출력하는 메소드
 		System.out.println(myAge);
@@ -40,52 +41,49 @@ public class Ex01 {
 		System.out.println(myAge);
 
 /////////////////////////////////////////////////////////////////////////
-				//NOTES (BYTE, SHORT, INT, LONG)\\
+		// NOTES (BYTE, SHORT, INT, LONG)\\
 /////////////////////////////////////////////////////////////////////////
-		
-		/* 
-		  	//1byte == 8bit (_ _ _ _ _ _ _ _) [only use 0 or 1]
-			//first box defines whether it's a plus (+) [0] / minus (-) [1]
-			//but - the actual number begins from the back e.g. 00011001 == 25
-			//you can write up to '256' numbers in 1 byte = 8bits including 0 (from -128 to 127)
-			//byte = 1 byte / short = 2byte / int = 4 byte / long = 8byte
-		  
-		 * byte no; 
-		   no = -128; 
-		   System.out.println(no);
+
+		/*
+		 * //1byte == 8bit (_ _ _ _ _ _ _ _) [only use 0 or 1] //first box defines
+		 * whether it's a plus (+) [0] / minus (-) [1] //but - the actual number begins
+		 * from the back e.g. 00011001 == 25 //you can write up to '256' numbers in 1
+		 * byte = 8bits including 0 (from -128 to 127) //byte = 1 byte / short = 2byte /
+		 * int = 4 byte / long = 8byte
 		 * 
-		 
-			 //when using 'long', you have to add "L" at the end of the number. but if the
-			 //number is below 'int' then you don't have to add the "L" at the end. "L"은
-			 //'int' 범위를 벗어나는 경우 붙인다.
-		 
-		 * long no2;
-		   no2 = 2147483648L;
-		   System.out.println(no2); */
-				
+		 * byte no; no = -128; System.out.println(no);
+		 * 
+		 * 
+		 * //when using 'long', you have to add "L" at the end of the number. but if the
+		 * //number is below 'int' then you don't have to add the "L" at the end. "L"은
+		 * //'int' 범위를 벗어나는 경우 붙인다.
+		 * 
+		 * long no2; no2 = 2147483648L; System.out.println(no2);
+		 */
+
 /////////////////////////////////////////////////////////////////////////
-			// 변수선언 (declaration) , 초기화 (initialization) \\
+		// 변수선언 (declaration) , 초기화 (initialization) \\
 /////////////////////////////////////////////////////////////////////////		
-		
-		//변수 여러개일떄 선언후 초기화
+
+		// 변수 여러개일떄 선언후 초기화
 		int var01;
 		int var02;
 		int var03;
-		
+
 		/* alternative ↑ : int var01, var02, var03; */
-		
+
 		var01 = 10;
 		var02 = 20;
 		var03 = 30;
-				
-		//변수 여러개일때 변수선언 + 초기화
-		
+
+		// 변수 여러개일때 변수선언 + 초기화
+
 		int var04 = 10;
 		int var05 = 20;
 		int var06 = 30;
-		
+
 		/* alternative: int var04=10, var05=20, var06=30; */
-		
+
 		System.out.println(var04);
 	}
 }

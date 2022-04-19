@@ -31,8 +31,6 @@ public class Ex08 {
 		
 		//better option(?) :
 		System.out.print((point>=90)?"A등급": (point>=80)?"B등급": (point>=70)?"C등급": (point>=60)?"D등급": "F등급");
-		
 		sc.close();
 	}
-
 }

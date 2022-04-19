@@ -14,10 +14,7 @@ public class Ex01 {
 		if(point>=60) {
 			System.out.println("합격입니다.");
 		}
-		
-		
 		sc.close();
 	}
-	
 }
 

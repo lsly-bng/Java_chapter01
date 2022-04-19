@@ -17,34 +17,33 @@
 */
 
 /////////////////////////////////////////////////////////////////////////
-						// JAVA_EX04_2022-04-13 \\
+// JAVA_EX04_2022-04-13 \\
 /////////////////////////////////////////////////////////////////////////
 
 package com.javaex.ex01;
 
 public class Ex04 {
-	
-	public static void main (String [] args) {
-	
+
+	public static void main(String[] args) {
+
 		// When printing 'one' letter use the ''.
 		char ch01 = 'A';
 		char ch02 = '안';
-		
+
 		System.out.println(ch01);
 		System.out.println(ch02);
-		
+
 		// Shouldn't do this ...? cause it won't print?
-		char ch03 = 65; 
+		char ch03 = 65;
 		System.out.println(ch03);
 
 		char ch04 = '3';
 		System.out.println(ch04);
-		
-		//String 을 사용하여 한 글자 이상 작성 -> Have to use "" and only ""
-		//실제로 String 활용도가 높다. 그러나 char 있다는 것은 인지해야 할 것 
-		
+
+		// String 을 사용하여 한 글자 이상 작성 -> Have to use "" and only ""
+		// 실제로 String 활용도가 높다. 그러나 char 있다는 것은 인지해야 할 것
+
 		String str = "안녕하세요";
 		System.out.println(str);
-
 	}
 }
